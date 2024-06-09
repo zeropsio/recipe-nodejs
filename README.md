@@ -17,6 +17,7 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 - Node.js running Express.js on **Zerops Node.js** service
 - Zerops **PostgreSQL 16** service as database
 - Utilization of Zerops built-in **environment variables** system
+- Utilization of Zerops' built-in **log management**
 
 ## Production vs. development
 Base of the recipe is ready for production, the difference comes down to:
@@ -26,4 +27,5 @@ Base of the recipe is ready for production, the difference comes down to:
 
 Futher things to think about when running more complex, highly available Node.js production apps on Zerops:
 - containers are volatile - use Zerops object storage to store your files
-- use Zerops Redis (KeyDB) for caching, storing sessions and pub/sub messaging 
+- use Zerops Redis (KeyDB) for caching, storing sessions and pub/sub messaging
+- use more advanced logging lib, such as [winston](https://github.com/winstonjs/winston)
