@@ -1,0 +1,15 @@
+project:
+  name: recipe-nodejs
+  tags:
+    - zerops-recipe
+
+services:
+  - hostname: nodejs20
+    type: nodejs@20
+    enableSubdomainAccess: true
+    buildFromGit: https://github.com/zeropsio/recipe-onboarding-nodejs
+
+  - hostname: db
+    type: postgresql@14
+    mode: NON_HA
+    priority: 1
