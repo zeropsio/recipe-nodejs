@@ -5,8 +5,8 @@ zerops:
       prepareCommands:
         - npm install -g typescript
       buildCommands:
-          npm i
-          npm run build
+        - npm i
+        - npm run build
       deployFiles:
         - ./dist
         - ./node_modules
