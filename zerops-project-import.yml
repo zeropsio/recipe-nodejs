@@ -10,6 +10,6 @@ services:
     buildFromGit: https://github.com/zeropsio/recipe-nodejs
 
   - hostname: db
-    type: postgresql@14
+    type: postgresql@16
     mode: NON_HA
     priority: 1
