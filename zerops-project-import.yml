@@ -4,7 +4,7 @@ project:
     - zerops-recipe
 
 services:
-  - hostname: nodejs20
+  - hostname: api
     type: nodejs@20
     enableSubdomainAccess: true
     buildFromGit: https://github.com/zeropsio/recipe-onboarding-nodejs
