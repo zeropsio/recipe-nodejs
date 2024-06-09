@@ -16,6 +16,7 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 ## Recipe features
 - Node.js running Express.js on **Zerops Node.js** service
 - Zerops **PostgreSQL 16** service as database
+- Healthcheck setup example
 - Utilization of Zerops' built-in **environment variables** system
 - Utilization of Zerops' built-in **log management**
 
