@@ -1,7 +1,9 @@
 # Zerops x Node.js
-This is the most bare-bones example of Node.js app running on Zerops.
+This is the most bare-bones example of Node.js app running on [Zerops](https://zerops.io).
 
 ![nodejs](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-nodejs.png)
+
+<br />
 
 ## Deploy on Zerops
 You can either click the deploy button to deploy directly on Zerops, or manually copy the [import yaml](https://github.com/zeropsio/recipe-nodejs/blob/main/zerops-project-import.yml) to the import dialog in the Zerops app.
@@ -30,3 +32,8 @@ Futher things to think about when running more complex, highly available Node.js
 - containers are volatile - use Zerops object storage to store your files
 - use Zerops Redis (KeyDB) for caching, storing sessions and pub/sub messaging
 - use more advanced logging lib, such as [winston](https://github.com/winstonjs/winston)
+
+<br/>
+<br/>
+
+Need help setting your project up? Join [Zerops Discord community](https://discord.com/invite/WDvCZ54).
