@@ -1,5 +1,5 @@
 # Zerops x Node.js
-This is the most bare-bones example of Node.js app running on [Zerops](https://zerops.io).
+This is the most bare-bones example of Node.js app running on [Zerops](https://zerops.io) — as few libraries as possible, just a simple endpoint with connnect, read and write to a Zerops PostgreSQL database.
 
 ![nodejs](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-nodejs.png)
 
@@ -14,7 +14,7 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 <br/>
 
 ## Recipe features
-- Node.js running Express.js on **Zerops Node.js** service
+- Node.js / Express.js app running on a load balanced **Zerops Node.js** service
 - Zerops **PostgreSQL 16** service as database
 - Healthcheck setup example
 - Utilization of Zerops' built-in **environment variables** system
