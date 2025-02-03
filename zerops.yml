@@ -5,7 +5,7 @@ zerops:
       prepareCommands:
         - npm install -g typescript
       buildCommands:
-        - npm i
+        - npm i --verbose
         - npm run build
       deployFiles:
         - ./dist
